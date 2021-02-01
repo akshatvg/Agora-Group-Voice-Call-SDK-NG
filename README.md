@@ -20,6 +20,7 @@ Group voice call using the Agora Web SDK NG.
 - [Deployed Website](https://o2o-voice.akshatvg.com)
 - [Agora.io Website](https://www.agora.io/)
 - [SDK NG Documentation](https://agoraio-community.github.io/AgoraWebSDK-NG/api/en/index.html)
+- [Guided Blog](https://akshatvg.medium.com/agora-group-voice-call-sdk-ng-5e03a237f068?source=friends_link&sk=399f578544e59199829a50a9da04757d)
 
 ## Requirements
 
