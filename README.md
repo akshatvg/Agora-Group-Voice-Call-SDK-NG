@@ -1,8 +1,8 @@
-# Agora One to One Voice Call SDK NG
+# Agora Group Voice Call SDK NG
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?style=social)](https://github.com/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?style=social&logo=git)](https://github.com/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG/network)
 
-One to one, voice call using the Agora Web SDK NG.
+Group voice call using the Agora Web SDK NG.
 
 <p align="center">
 <a href="https://rtm.akshatvg.com">

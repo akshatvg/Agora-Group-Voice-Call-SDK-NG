@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="One to one, voice call using the Agora Web SDK NG.">
+  <meta name="description" content="Group voice call using the Agora Web SDK NG.">
   <meta name="keywords" content="Agora, RTC, Live Stream, Live Broadcast, SDK, CDN, Agora.io, NG, Many to Many">
   <meta name="author" content="Akshat Gupta">
   <meta name="copyright" content="Akshat Gupta">
@@ -19,23 +19,23 @@
   <meta name="og:phone_number" content="‭+919600093179">
   <meta name="og:country-name" content="India, USA, China">
   <meta name="og:region" content="Delhi, Chennai, Mumbai, Vellore, Kolkatta, Bangalore, Gurgaon, Los Angeles, Chicago">
-  <meta name="og:site_name" content="One to One Voice Call || Agora Web SDK NG">
+  <meta name="og:site_name" content="Group Voice Call || Agora Web SDK NG">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="One to One Voice Call || Agora Web SDK NG">
-  <meta property="og:description" content="One to one, voice call using the Agora Web SDK NG.">
+  <meta property="og:title" content="Group Voice Call || Agora Web SDK NG">
+  <meta property="og:description" content="Group voice call using the Agora Web SDK NG.">
   <meta property="og:url" content="https://o2o-voice.akshatvg.com">
   <meta name="theme-color" content="#2F3FB0">
-  <meta property="og:site_name" content="One to One Voice Call || Agora Web SDK NG">
+  <meta property="og:site_name" content="Group Voice Call || Agora Web SDK NG">
   <meta name="twitter:card" content="website">
-  <meta name="twitter:site" content="One to One Voice Call || Agora Web SDK NG">
-  <meta name="twitter:title" content="One to One Voice Call || Agora Web SDK NG">
+  <meta name="twitter:site" content="Group Voice Call || Agora Web SDK NG">
+  <meta name="twitter:title" content="Group Voice Call || Agora Web SDK NG">
   <meta property="og:image" itemprop="image" content="assets/img/favicon.png">
-  <meta name="twitter:description" content="One to one, voice call using the Agora Web SDK NG.">
+  <meta name="twitter:description" content="Group voice call using the Agora Web SDK NG.">
   <meta name="twitter:creator" content="@akshatvg">
-  <meta itemprop="name" content="One to One Voice Call || Agora Web SDK NG">
-  <meta itemprop="description" content="One to one, voice call using the Agora Web SDK NG.">
+  <meta itemprop="name" content="Group Voice Call || Agora Web SDK NG">
+  <meta itemprop="description" content="Group voice call using the Agora Web SDK NG.">
   <link rel="canonical" href="https://o2o-voice.akshatvg.com">
-  <title>One to One Voice Call || Agora Web SDK NG</title>
+  <title>Group Voice Call || Agora Web SDK NG</title>
 
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -67,13 +67,9 @@
       </div>
       <!-- UI Controls -->
       <div class="button-group mt-3">
-        <button id="host-join" type="submit" class="btn btn-live btn-sm">Join as Host</button>
-        <button id="audience-join" type="submit" class="btn btn-live btn-sm">Join as Audience</button>
-        <button id="mic-btn" type="button" class="btn btn-live btn-sm">
+        <button id="join" type="submit" class="btn btn-live btn-sm">Join</button>
+        <button id="mic-btn" type="button" class="btn btn-live btn-sm" disabled>
           <i id="mic-icon" class="fas fa-microphone"></i>
-        </button>
-        <button id="video-btn" type="button" class="btn btn-live btn-sm">
-          <i id="video-icon" class="fas fa-video"></i>
         </button>
         <button id="leave" type="button" class="btn btn-live btn-sm" disabled>Leave</button>
       </div>
