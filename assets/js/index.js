@@ -59,6 +59,10 @@ async function join() {
   rtc.localAudioTrack = await AgoraRTC.createMicrophoneAudioTrack();
   // Publish the local audio track to the channel.
   await rtc.client.publish([rtc.localAudioTrack]);
+  $("#local-player-name").append(`<div id="player-wrapper-${uid}">
+  <p class="player-name">localUser(${uid})</p>
+</div>`);
+  // publish local tracks to channel
   console.log("Successfully published.");
   rtc.client.on("user-published", async (user, mediaType) => {
     // Subscribe to a remote user.
@@ -66,6 +70,12 @@ async function join() {
     console.log("Successfully subscribed.");
     // If the subscribed track is audio.
     if (mediaType === "audio") {
+      const player = $(`
+          <div id="player-wrapper-${uid}">
+            <p class="player-name">remoteUser(${uid})</p>
+          </div>
+        `);
+      $("#remote-playerlist").append(player);
       // Get `RemoteAudioTrack` in the `user` object.
       const remoteAudioTrack = user.audioTrack;
       // Play the audio track. No need to pass any DOM element.
@@ -74,7 +84,7 @@ async function join() {
   });
   rtc.client.on("user-unpublished", user => {
     // Get the dynamically created DIV container.
-    const playerContainer = document.getElementById(user.uid);
+    const playerContainer = document.getElementById("player-wrapper-" + uid);
     // Destroy the container.
     playerContainer.remove();
   });
