@@ -1,6 +1,6 @@
 # Agora Group Voice Call SDK NG
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?style=social)](https://github.com/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?style=social&logo=git)](https://github.com/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG/network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/Agora-Group-Voice-Call-SDK-NG?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/Agora-Group-Voice-Call-SDK-NG?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/Agora-Group-Voice-Call-SDK-NG?style=social)](https://github.com/akshatvg/Agora-Group-Voice-Call-SDK-NG/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/Agora-Group-Voice-Call-SDK-NG?style=social&logo=git)](https://github.com/akshatvg/Agora-Group-Voice-Call-SDK-NG/network)
 
 Group voice call using the Agora Web SDK NG.
 
@@ -81,9 +81,9 @@ ______      _               _   _               _
 
 ## License
 
-**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG/blob/master/LICENSE)**
+**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/Agora-Group-Voice-Call-SDK-NG/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG?style=social&logo=github)](https://github.com/akshatvg/Agora-One-to-One-Voice-Call-SDK-NG/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
+[![GitHub license](https://img.shields.io/github/license/akshatvg/Agora-Group-Voice-Call-SDK-NG?style=social&logo=github)](https://github.com/akshatvg/Agora-Group-Voice-Call-SDK-NG/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
 
 ---------
 
