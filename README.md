@@ -24,7 +24,7 @@ Group voice call using the Agora Web SDK NG.
 
 ## Requirements
 
-[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/Agora-RTM-Web?logo=html&style=social)](https://github.com/akshatvg/)
+[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/Agora-Group-Voice-Call-SDK-NG?logo=html&style=social)](https://github.com/akshatvg/)
 
 The source code of this project is written in **`HTML`, `CSS`, `JavaScript` and the `Agora SDK NG`**. So, you would require the Agora SDK NG and a valid App Id to run this project.
 
