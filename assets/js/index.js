@@ -6,7 +6,7 @@ var rtc = {
 };
 
 var options = {
-  appId: "a6af85f840ef43108491705e2315a857",
+  appId: null,
   channel: null,
   token: null,
 };
@@ -14,7 +14,7 @@ var options = {
 // the demo can auto join channel with params in url
 $(() => {
   var urlParams = new URL(location.href).searchParams;
-  options.appid = "a6af85f840ef43108491705e2315a857";
+  options.appid = urlParams.get("appid");
   options.channel = urlParams.get("channel");
   if (options.appid && options.channel) {
     $("#channel").val(options.channel);
@@ -27,7 +27,7 @@ $("#join-form").submit(async function (e) {
   e.preventDefault();
   $("#join").attr("disabled", true);
   try {
-    options.appid = "a6af85f840ef43108491705e2315a857";
+    options.appid = $("#appid").val();
     options.channel = $("#channel").val();
     await join();
   } catch (error) {
